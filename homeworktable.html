@@ -5,16 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Table</title>
+    <style>
+    table, tr, td, th {
+        border: 1px solid black;
+    }
+    </style>
 </head>
 <body>
     <table>
-            <tr>
-                <th colspan="2"><thead>
+        <thead>
+                <th colspan="3">
                     <h1><storng>TIME OUT</storng></h1>
-                </thead></th>
-            </tr>
+                </th>
+                </thead>
         <tbody>
-            <th>News in sport </th>
+            <th colspan="3">News in sport </th>
             <tr>
             <td rowspan="3">
                 <nav>   
@@ -27,20 +32,19 @@
                     </ul>
                 </nav>          
             </td>
-            <td rowspan="3">
+            </tr>
+            <t  r>
             <td>
                 <form onreset="" onsubmit="">
                     <h3>Register here for website</h3>
                 <section>
                     <label >Full Name</label>
                     <input type="text" name="frane">
-                    </section>
-                    <br>    
+                </section>   
                     <section>
                     <label>Email</label>
                     <input type="email" name="email">
                     </section>
-                    <br>
                     <section>
                     <label>Password</label>
                     <input type="password" name="pass">
@@ -51,9 +55,6 @@
                     <input name="age" type="radio" volue="18-45">19-45
                     <input name="age" type="radio" volue="45+">45+
                     </section>
-                </td>
-                <tr>
-                    <td colspan="3">
                         <label>Citys</label>
                         <select>
                         <option value="resen">Resen</option>
@@ -62,31 +63,25 @@
                         <option value="resen">Prilep</option>
                         <option value="resen">Skopje</option>
                     </select>
-                    </td>
-                </tr>
-                    <tr>
-                        <td>
                             <section>
                             <label>Favourite sport</label>
                             <input type="checkbox" value="school">Football
                             <input type="checkbox" value="school">Basketball
                             <input type="checkbox" value="school">Tennis
                             <input type="checkbox" value="school">Handball
-                        </section>
-                        </td>
-                    </tr>
-                    <td></td>
-                    <td colspan="3">
+                            </section>  
                         <section>
                         <input type="submit" name="DONE"><input type="reset" name="RESET">
-                    </section></td>
-             <tr>
                 </section>
+                </form>
 
-                <td><footer>
-                    <a href="https://github.com/berkanalce"target="_blank"><strong>Berkan Alcevski</strong></a> 
-                </footer></td>
+               
             </tr>
+                <tfoot>
+                <td colspan="3">
+                    <a href="https://github.com/berkanalce"target="_blank"><strong>Berkan Alcevski</strong></a> 
+                </td>
+            </tfoot>    
 
         </tbody>
     </table>
