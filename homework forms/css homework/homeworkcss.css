@@ -1,0 +1,36 @@
+body{
+    background-color: black;
+    background-image: url(http://www.clker.com/cliparts/K/C/r/p/W/o/grey-oak-tree-hi.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.berkan{
+    color:antiquewhite;
+    text-align: center;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+.life{
+    color: aqua ;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.bro{
+    color:antiquewhite;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration-line: underline;
+}
+.that{
+    color:antiquewhite;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.the{
+    color:antiquewhite;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.the > .car{
+    background-color: rgb(255, 0, 0);
+
+}
+.end{
+    color: antiquewhite;
+    text-align: center;
+}
