@@ -1,0 +1,95 @@
+
+.told{
+    width: 200px;
+    height: 200px;
+    background-color: darkturquoise
+    
+}
+.mom{
+    background-color: yellow;
+    overflow: auto;
+    width: 200px;
+    height: 200px;
+}
+.storm{
+    overflow: hidden;
+    background-color: blue;
+  height:150px;
+  width: 400px;
+}
+.home{
+    text-align: center;
+}
+.storm:hover{
+    transform: scale(2);
+}
+#sec{
+    display: flex;
+}
+.told:hover{
+    transform: rotate(90deg);
+}
+body {
+    margin: 0;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+.navbar {
+    overflow: hidden;
+    background-color: rgb(208, 255, 0);}
+    .navbar{
+        color: rgb(255, 0, 0);
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    span{;
+        float::before
+    }
+    .navbar,.sticky{
+        padding: 1%;
+        position:sticky;
+        top: 0;
+    }
+.navbar:hover+.css{
+        position: sticky;
+        z-index: auto;
+    }
+    @keyframes rotate {
+        0{
+            transform: rotate(0deg);
+        }
+        100%{
+            transform: rotate(360deg);
+        }
+    }
+    #id1{
+        animation: rotate 3s linear infinite;
+    }
+    @keyframes scale {
+        0{
+            transform: scale(2);
+        }
+        100%{
+            transform: scale(5);
+        }
+    }
+    #id2{
+        animation: scale 2s 5s linear infinite;}
+      #id3{
+        width: 600px;
+        height: 600px;
+  animation:transision 3s linear 2s infinite;
+      }
+        #id4{
+            width: 600px;
+            height: 600px;
+            animation: translate 3s linear 2s infinite ;
+        }
+        @keyframes transision {
+            0%{
+                transform:translateY(600px);
+            }
+        }
+        @keyframes translate{
+            0%{transform: translateY(-600px);}
+        }
+   
